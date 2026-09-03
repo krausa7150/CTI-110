@@ -27,13 +27,6 @@ total = product_count * product_price # Requires two numbers, returns a third nu
 # Output
 print("CUSTOMER INTERFACE")
 print("_" * 10) # ten _ in a row
-print("Welcome to the", product_name, "store")
-print("We have", product_count, product_name, "(s) at $", product_price, "each.")
-
-
 print ("Welcome to the", product_name, "store")
 print("We have", product_count, product_name, "(s) at $", product_price, "each.")
-
-total = product_count * product_price
-
 print("Your total is: $", total)
