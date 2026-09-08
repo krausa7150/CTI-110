@@ -5,8 +5,16 @@
 # Do some math processing
 
 # Part 1 - Exponents
+print("-----Calculating Exponents-----")
+print("n") # 2 newlines
+base = int(input("Enter integar as a base value: "))
+exponent = int(input("Enter integar as an exponent value: "))
+result = base ** exponent # example, (3 ** 2) is 3 squared
+print(f"{base} to the {exponent} power is {result}!!")
 
 # Part 2 - ADDITION SUBTRACTION
+print("-----Calculating Addition and Subtraction-----") 
+print("n") # 2 newlines
 # 3 numbers, start, add_this, sub_this
 start = int(input("Enter a starting number: "))
 #print("you typed: ", start)
