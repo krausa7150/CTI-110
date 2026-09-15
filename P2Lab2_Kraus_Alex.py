@@ -23,3 +23,4 @@ print(f"The MPG of {car} is {mpg} miles per gallon. ")
 miles = float(input("How many miles will drive? "))
 gallons_used = miles / mpg # miles divided by miles per gallon gives units in gallons
 print(f"Driving {car} for {miles} miles will use {gallons_used:.2f} gallons of gas.")
+
