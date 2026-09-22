@@ -16,4 +16,5 @@ grade3 = float(input("Enter grade #3"))
 # Do some calculations
 min_grade = min(grade_list)
 max_grade = max(grade_list)
-total
+sum_grade = sum(grade_list)
+average_grade = average(grade_list)
