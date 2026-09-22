@@ -22,7 +22,7 @@ if potions == 0:
 elif potions == 1:
     print(f"You have {potions} health potion ")
 elif potions == 1:
-    print(f"You have {potions} health portions. "))
+    print(f"You have {potions} health portions. ")
 else:
     print(f"How did you get {potions}!!! That is less than zero! ")
 
