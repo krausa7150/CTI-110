@@ -11,13 +11,14 @@ for number in range (5):
 for beer in range(99,0,-1):
 
 # validate (loop) - number must be 0 and 12
-    while multiplier < 0 or multiplier > 12: 
-     print("That is not a valid answer." )
+while multiplier < 0 or multiplier > 12: 
+    print("That is not a valid answer. ")
     multiplier = int(input("Enter a number 0-12: "))
 
 # print the times table header
 print("Multiplication Table")
 print ("-"*20)
+
 # print the times table loop
 for number in range(1, 13):
     
@@ -26,3 +27,7 @@ print(f"{multiplier}*{number}= {number*})
 
 # ask if they want repeat
 again = input ("Run again? (yes/no)")
+
+#outside the loop
+print()
+print("Exiting program...")
