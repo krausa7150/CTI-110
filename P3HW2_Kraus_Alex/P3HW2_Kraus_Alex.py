@@ -8,6 +8,6 @@ Employees = int(input())
 print ("Enter number of hours worked: ") 
 Hours = int(input:())
 print ("Enter employee's pay rate: ") 
-input:()
+Pay-rate = int(input:())
 
 
