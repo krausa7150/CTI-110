@@ -10,7 +10,13 @@ for number in range (5)
     print (number)
 for beer in range(99,0,-1):
 """
+# set up variables 
+
 #counting loop
 print ("7's times table:")
 for mult in range(1,13):
     print (7 * mult)
+
+# print the times table header
+print ("-"*20)
+# print the times table loop
