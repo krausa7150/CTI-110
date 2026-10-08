@@ -4,9 +4,9 @@
 # P3HW2
 
 print ("Enter employees name: ") 
-Employees name = int(input())
+Employees = int(input())
 print ("Enter number of hours worked: ") 
-input:()
+Hours = int(input:())
 print ("Enter employee's pay rate: ") 
 input:()
 

@@ -5,4 +5,8 @@
 
 #warm ups
 for number in (1,2,3,4):
-    print number 
+    print(number)
+for number in range (5)
+    print (number)
+for beer in range(99,0,-1):
+"""
