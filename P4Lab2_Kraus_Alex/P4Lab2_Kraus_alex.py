@@ -4,12 +4,18 @@
 # P4Lab2
 
 #warm ups
+"""
+
 for number in (1,2,3,4):
     print(number)
 for number in range (5):
     print (number)
 for beer in range(99,0,-1):
+    print(beer, "bottles)
 
+    
+
+"""
 # validate (loop) - number must be 0 and 12
 while multiplier < 0 or multiplier > 12: 
     print("That is not a valid answer. ")
