@@ -1,6 +1,7 @@
 # Alex Kraus
 # 10/21/26
 # CTI 110
+# Updated Grade Scores
 
 # Ask user for number of scores
 num_scores = int(input("How many scores do you want to enter? "))
