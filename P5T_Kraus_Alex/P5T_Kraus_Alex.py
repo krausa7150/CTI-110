@@ -6,29 +6,34 @@
 # Large Potion heals 25 HP. Small Potion heals 5 HP.
 # Run it now (it works). In P5T you turn it into a function.
 
-def drink_potions(hp_missing):     
+import random 
+
+def drink_potions(hp_missing):  
     # input missing max healing possible
     # output prints potion used
-hp_missing = int(input("Enter HP missing: "))
-large = hp_missing // 25
-hp_missing = hp_missing % 25
-if large == 1:
-    print(large, "Large Potion")
-elif large > 1:
-    print(large, "Large Potions")
+    large = hp_missing // 25
+    hp_missing = hp_missing % 25
+    if large == 1:
+        print(large, "Large Potion")
+    elif large > 1:
+        print(large, "Large Potions")
 
-small = hp_missing // 5
-hp_missing = hp_missing % 5
-if small == 1:
-    print(small, "Small Potion")
-elif small > 1:
-    print(small, "Small Potions")
+    small = hp_missing // 5
+    hp_missing = hp_missing % 5
+    if small == 1:
+        print(small, "Small Potion")
+    elif small > 1:
+        print(small, "Small Potions")
 
-print("Still missing:", hp_missing, "HP")
+    print("Still missing:", hp_missing, "HP")
 
 def main():
-   hp_missing = int(input("Enter HP missing: ")) 
-   drink_potions(hp_missing)
-
+    max_hp = int(input("What is your max HP? "))
+    hp = random.randint(1, max_hp)
+    print(f"A goblin hits you. You have {hp} HP left.")
+    hp_missing = max_hp - hp
+    print(f"You are missing {hp_missing} HP.")
+    drink_potions(hp_missing)
+    
 # Start program
 main()
