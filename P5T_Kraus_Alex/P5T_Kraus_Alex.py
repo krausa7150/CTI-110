@@ -27,6 +27,11 @@ def drink_potions(hp_missing):
 
     print("Still missing:", hp_missing, "HP")
 
+def get_random_gold():
+    # retruns a float of how much gold was found
+    gold = round(random.uniform(0.01,100,), 2)
+    return gold
+
 def main():
     max_hp = int(input("What is your max HP? "))
     hp = random.randint(1, max_hp)
@@ -34,6 +39,10 @@ def main():
     hp_missing = max_hp - hp
     print(f"You are missing {hp_missing} HP.")
     drink_potions(hp_missing)
+
+# get random gold
+gold = get_random_gold()
+print(f"You find {gold:.2f} gold in the chest. ")
     
 # Start program
 main()
